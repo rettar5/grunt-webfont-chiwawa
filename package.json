@@ -1,0 +1,18 @@
+{
+  "name": "gurnt-webfont-chiwawa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run clean; npm run build",
+    "build": "./node_modules/grunt/bin/grunt webfont",
+    "clean": "rm -rf dist/"
+  },
+  "author": "rettar5",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-webfont": "^1.6.0"
+  }
+}
