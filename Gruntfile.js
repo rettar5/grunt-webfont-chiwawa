@@ -13,15 +13,10 @@ module.exports = function(grunt) {
           htmlDemo: true, // 生成したフォントを確認できるデモページの有無
           htmlDemoFilename: "chiwawa_fonts", // デモページのファイル名
           types: "ttf,eot,woff", // 出力するフォントの形式
-          // template: "templates/style.scss",
           templateOptions: {
             baseClass: "chiwawa_fonts", // 生成するフォントの共通クラス
             classPrefix: "chiwawa_fonts_" // 生成するフォントのクラス名のプレフィックス
-          },
-          // rename: function(name) {
-          //   // クラス名にスラッシュが入ってしまうため、ディレクトリ名を除外
-          //   return name.replace("Chiwawa_icons/", "");
-          // }
+          }
         }
       }
     },
